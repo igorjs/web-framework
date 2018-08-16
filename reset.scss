@@ -4,7 +4,7 @@ $primary-font-sizes: "300";
 $secondary-font-name: "Lato";
 $secondary-font-sizes: "300";
 
-@import url("https://fonts.googleapis.com/css?family=#{$primary-font-name}:#{$primary-font-sizes}"|#{$secondary-font-name}:#{$secondary-font-sizes}");
+@import url("https://fonts.googleapis.com/css?family=#{$primary-font-name}:#{$primary-font-sizes}|#{$secondary-font-name}:#{$secondary-font-sizes}");
 
 /* Reset CSS */
 * {
