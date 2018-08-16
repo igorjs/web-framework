@@ -1,0 +1,57 @@
+/* Fonts at: https://www.google.com/fonts */
+$primary-font-name: "Roboto";
+$primary-font-sizes: "300";
+$secondary-font-name: "Lato";
+$secondary-font-sizes: "300";
+
+@import url("https://fonts.googleapis.com/css?family=#{$primary-font-name}:#{$primary-font-sizes}"|#{$secondary-font-name}:#{$secondary-font-sizes}");
+
+/* Reset CSS */
+* {
+  outline: none;
+
+  &, &:before, &:after {
+    box-sizing: border-box;
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  font-size: 62.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.design-by { 
+  color: #3A2012; 
+  display: block; 
+  font-family: Arial,sans-serif; 
+  font-size: 1.4rem; 
+  font-weight: bold; 
+  letter-spacing: 0.2rem; 
+  line-height: 2.8rem; 
+  max-width: 100%; 
+  text-align: center; 
+  text-transform: uppercase; 
+  bottom: 2rem; 
+  left: 3rem; 
+  position: absolute; 
+  z-index: 99; 
+  
+  a { 
+    color: #D67B32; 
+    text-decoration: none; 
+    cursor: pointer; 
+    
+    &:hover{ 
+      text-decoration:underline 
+    } 
+  }
+}
